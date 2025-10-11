@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class fireball_movement : MonoBehaviour
+public class water_movement : MonoBehaviour
 {
-    public float speed = 0.005f;
+    public float speed = 4f;
     public float MaxX = 8;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,7 +13,7 @@ public class fireball_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(speed * Vector2.right);
+        transform.Translate(speed * Vector2.right * Time.deltaTime);
 
         // if we are at the end of the screen, self-destruct
         if (transform.position.x > MaxX)

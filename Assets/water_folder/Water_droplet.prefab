@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -2753656659380840964}
   - component: {fileID: 8110044814726409708}
   m_Layer: 0
-  m_Name: Fireball
-  m_TagString: Fireball
+  m_Name: Water_droplet
+  m_TagString: Ammo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,8 +30,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.213, y: 0.401, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -77,14 +77,14 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 279072905
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6607481912129624618, guid: 93d9394be2a5746688eefd39b851422c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: beede53270bff408d8fc8961afc1f71b, type: 3}
+  m_Color: {r: 0.8114097, g: 0.9245283, b: 0.7893378, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.5, y: 0.48}
+  m_Size: {x: 3.13, y: 1.9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -102,8 +102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 715c66411a2cb47fe9c5d058200aaa55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.005
-  MaxX: 8
+  speed: 4
+  MaxX: 7
 --- !u!82 &-2753656659380840964
 AudioSource:
   m_ObjectHideFlags: 0
@@ -115,7 +115,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 4ccbb83a568ff48b7beef2ba9722c0e9, type: 3}
+  m_Resource: {fileID: 8300000, guid: b81d30252b7b14451a80c3d3b37cd505, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

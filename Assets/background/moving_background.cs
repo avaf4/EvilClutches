@@ -3,7 +3,7 @@ using UnityEngine.UIElements;
 
 public class moving_background : MonoBehaviour
 {
-    public float speed = 0.005f;
+    public float speed = 4f;
     private Vector3 position;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,7 +14,7 @@ public class moving_background : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(speed, 0f, 0f);
+        transform.Translate(speed*Time.deltaTime, 0f, 0f);
         if (transform.position.x > 16f)
         {
             transform.position = new Vector3(-16f, transform.position.y, transform.position.z);

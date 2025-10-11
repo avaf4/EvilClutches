@@ -19,7 +19,11 @@ Spraying sound:
     Water spraying from a bottle 03 by Jagadamba -- https://freesound.org/s/258048/ -- License: Attribution 4.0
 
 Flower:
-https://www.vexels.com/png-svg/preview/235102/sunflower-cartoon-flower
+    https://www.vexels.com/png-svg/preview/235102/sunflower-cartoon-flower
+
+Pollen:
+    Author: Matthew Britton
+    Link: https://www.vecteezy.com/png/47184801-cartoon-flower-releasing-pollen-drawing
 
 Plop picture:
     Author: Jake Prickett
@@ -27,5 +31,9 @@ Plop picture:
 
 Plop sound:
 FingerPlop4.flac by acclivity -- https://freesound.org/s/19989/ -- License: Attribution NonCommercial 4.0
+
+Water droplets:
+    Author: John3
+    Link: https://toppng.com/free-image/rain-cloud-shape-with-a-few-raindrops-icon-cartoon-water-drops-PNG-free-PNG-Images_169242
 
 */

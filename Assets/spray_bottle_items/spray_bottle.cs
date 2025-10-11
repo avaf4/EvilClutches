@@ -1,9 +1,10 @@
 using UnityEngine;
 
-public class dragon : MonoBehaviour
+public class spray_bottle : MonoBehaviour
 {
-    public float speed = 0.004f;
+    public float speed = 4f;
     public GameObject FireballPrefab;
+    public float MaxY = 3f;
 
     public float fireball_x_offset = 0f;
     public float fireball_y_offset = 0f;    
@@ -17,31 +18,25 @@ public class dragon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float y;
-        y = Input.GetAxis("Vertical");
+        float y = Input.GetAxis("Vertical");
 
-        if (transform.position.y >= -4f && transform.position.y <= 4f){
+        if (transform.position.y >= -MaxY && transform.position.y <= MaxY){
 
-            transform.Translate(y * speed * Vector2.up);
-
+            transform.Translate(y * speed * Time.deltaTime  * Vector2.up);
             // transform.Translate(y * -speed * Vector2.down);
         }
-        else if (transform.position.y > 4f)
+        else if (transform.position.y > MaxY)
         {
-            transform.Translate(y * speed * Vector2.down);
+            Vector3 offset = transform.position - Vector3.up * MaxY;
+            transform.position -= Vector3.up * offset.y;
         }
-        else if (transform.position.y < -4f)
+        else if (transform.position.y < -MaxY)
         {
-            transform.Translate(y * -speed * Vector2.up);
+            Vector3 offset = transform.position - Vector3.down * MaxY;
+            transform.position += Vector3.down * offset.y;
         }
-        // else
-        // {
-        //     transform.Translate(0f, 0f, 0f);
-        // }
-
 
         // button
-
         if (Input.GetButtonDown("Fire1"))
         {
             GameObject obj;
