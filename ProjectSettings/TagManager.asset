@@ -4,10 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Baby
-  - Demon
-  - Fireball
-  - Boss
+  - Sunflower
+  - Bee
+  - Spray Bottle
+  - FlowerBarrier
+  - Water
+  - Pollen
   layers:
   - Default
   - TransparentFX

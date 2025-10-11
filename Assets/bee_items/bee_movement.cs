@@ -37,7 +37,7 @@ public class bee_movement : MonoBehaviour
             transform.position += Vector3.left * offset.x;
         }
 
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject obj;
 

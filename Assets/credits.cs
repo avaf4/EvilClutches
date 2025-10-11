@@ -25,10 +25,6 @@ Pollen:
     Author: Matthew Britton
     Link: https://www.vecteezy.com/png/47184801-cartoon-flower-releasing-pollen-drawing
 
-Plop picture:
-    Author: Jake Prickett
-    Link: https://cocoapods.org/pods/PLOP
-
 Plop sound:
 FingerPlop4.flac by acclivity -- https://freesound.org/s/19989/ -- License: Attribution NonCommercial 4.0
 
